@@ -155,7 +155,10 @@ int main() {
 
             // Chama a função que toca o buzzer por 1 segundo
             beep(BUZZER_PIN, 1000);
-
+            
+            // Delay de 300ms
+            sleep_ms(300);
+            
             // Reseta os dados do display
             memset(ssd, 0, ssd1306_buffer_length);
             // Atualiza uma parte do display com uma área de renderização "vazia"
