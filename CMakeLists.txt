@@ -35,10 +35,13 @@ pico_sdk_init()
 
 # Add executable. Default name is the project name, version 0.1
 
-add_executable(coresLed coresLed.c inc/ssd1306_i2c.c)
+add_executable(coresLed coresLed.c inc/ssd1306_i2c.c neopixel/neopixel_pio.c)
 
 pico_set_program_name(coresLed "coresLed")
 pico_set_program_version(coresLed "0.1")
+
+#Generate PIO header
+pico_generate_pio_header(coresLed ${CMAKE_CURRENT_LIST_DIR}/ws2818b.pio)
 
 # Modify the below lines to enable/disable output over UART/USB
 pico_enable_stdio_uart(coresLed 0)
@@ -57,6 +60,9 @@ target_include_directories(coresLed PRIVATE
 target_link_libraries(coresLed 
         hardware_i2c
         hardware_pwm
+        hardware_pio
+        hardware_clocks
+        hardware_adc
         )
 
 pico_add_extra_outputs(coresLed)

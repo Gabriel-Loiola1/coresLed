@@ -39,6 +39,8 @@
     "files.associations": {
         "string.h": "c",
         "ctype.h": "c",
-        "pwm.h": "c"
+        "pwm.h": "c",
+        "clocks.h": "c",
+        "binary_info.h": "c"
     }
 }
