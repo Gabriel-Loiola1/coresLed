@@ -109,7 +109,7 @@ int main() {
 
     // Inicializando o loop infinito
     while (true) {
-        // Resetando a placa
+        // Resetando o display
         memset(ssd, 0, ssd1306_buffer_length);
 
         // Monitorando e lendo a posição do joystick
