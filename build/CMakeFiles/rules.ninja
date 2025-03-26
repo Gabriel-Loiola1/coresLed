@@ -83,7 +83,7 @@ rule ASM_EXECUTABLE_LINKER__bs2_default_Release
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = C:\Users\gabri\.pico-sdk\cmake\v3.29.9\bin\cmake.exe --regenerate-during-build -SC:\Users\gabri\OneDrive\Desktop\repositorio\coresLed -BC:\Users\gabri\OneDrive\Desktop\repositorio\coresLed\build
+  command = C:\Users\gabri\.pico-sdk\cmake\v3.29.9\bin\cmake.exe --regenerate-during-build -SC:\Users\gabri\OneDrive\Desktop\projetosRaspberry\coresLed -BC:\Users\gabri\OneDrive\Desktop\projetosRaspberry\coresLed\build
   description = Re-running CMake...
   generator = 1
 
