@@ -1,5 +1,5 @@
 # ninja log v6
-7	806	7646902046538556	build.ninja	cd50abb011ce0c14
+61	1016	7684163412147104	build.ninja	63c710977bc5151f
 908	1491	7646900290504845	CMakeFiles/coresLed.dir/C_/Users/gabri/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_timer/timer.c.obj	4415c13011e8cd7f
 2866	3285	7614418800230265	C:/Users/gabri/coresLed/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S	83a6d1c69657af32
 550	1137	7646900286910319	CMakeFiles/coresLed.dir/C_/Users/gabri/.pico-sdk/sdk/1.5.1/src/common/pico_sync/mutex.c.obj	dcb194d19d0a2f53
@@ -12,7 +12,7 @@
 538	1021	7646900286799106	CMakeFiles/coresLed.dir/C_/Users/gabri/.pico-sdk/sdk/1.5.1/src/common/pico_sync/sem.c.obj	edbfc6c85f8ac222
 2215	2866	7614418796132536	C:/Users/gabri/coresLed/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin	9b5305f9095e2e2
 1794	2746	7646900299361319	CMakeFiles/coresLed.dir/C_/Users/gabri/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio/stdio.c.obj	642e5a9c6213fcfa
-476	1226	7646900286185069	CMakeFiles/coresLed.dir/coresLed.c.obj	79911173b99f383d
+137	2363	7648219577290396	CMakeFiles/coresLed.dir/coresLed.c.obj	79911173b99f383d
 544	908	7646900286860325	CMakeFiles/coresLed.dir/C_/Users/gabri/.pico-sdk/sdk/1.5.1/src/common/pico_sync/lock_core.c.obj	5778ff8c892cf11
 898	1316	7646900290405278	CMakeFiles/coresLed.dir/C_/Users/gabri/.pico-sdk/sdk/1.5.1/src/common/pico_time/timeout_helper.c.obj	60982e6050bb8e57
 506	898	7646900286475703	CMakeFiles/coresLed.dir/C_/Users/gabri/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_platform/platform.c.obj	8867eba78463eac2
@@ -78,7 +78,7 @@
 2840	3146	7646900309825599	CMakeFiles/coresLed.dir/C_/Users/gabri/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj	92a885ebeea5dd23
 2894	3469	7646900310355563	CMakeFiles/coresLed.dir/C_/Users/gabri/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_pio/pio.c.obj	1160987c31de4e0b
 2747	3271	7646900308894292	CMakeFiles/coresLed.dir/C_/Users/gabri/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/tusb.c.obj	f9e2187d71f069cc
-3707	4330	7646900318506475	coresLed.elf	7fa7eb8730d9637c
+2365	4587	7648219599566699	coresLed.elf	7fa7eb8730d9637c
 481	1204	7646900286235802	CMakeFiles/coresLed.dir/inc/ssd1306_i2c.c.obj	e71c81dc79947ae3
 2854	3307	7646900309955533	CMakeFiles/coresLed.dir/C_/Users/gabri/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_i2c/i2c.c.obj	d08130363216eacf
 1883	2706	7636380768791571	C:/Users/gabri/OneDrive/Desktop/repositorio/coresLed/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin	91eac55d7c18ce5d
