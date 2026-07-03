@@ -8,3 +8,4 @@ extern void npInit(uint pin);
 extern void npSetLED(const uint index, const uint8_t r, const uint8_t g, const uint8_t b);
 extern void npClear();
 extern void npWrite();
+extern void npSetBrightness(uint8_t b);

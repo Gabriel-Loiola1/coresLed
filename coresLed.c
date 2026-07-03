@@ -90,6 +90,7 @@ int main() {
 
     // Inicializa matriz de LEDs NeoPixel.
     npInit(LED_PIN);
+    npSetBrightness(60);
     npClear();
 
     // Escreve os dados nos LEDs.
